@@ -35,7 +35,7 @@ print '<br>';
 
 //Using subtraction operator to find user's age
 $age = $current_year - $yob;
-print $fname . "is" . $age "years old."; // Added semicolon and fixed concantenation
+
 
 print '<br>';
 
@@ -54,7 +54,7 @@ print_r($interval);
 print '</pre>';
 
 print $fname . "is" . $interval->y . "years,".
-$interval->m . "months, and" . $interval->."days old";
+
 
 print '<br>';
 
